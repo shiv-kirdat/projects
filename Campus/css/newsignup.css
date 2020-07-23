@@ -1,0 +1,80 @@
+div{
+		padding: 10px;
+	}
+	.placeholder{
+		height: 10px;
+	}
+	.btn{
+
+	width: 80px;
+	height: 30px;
+	border: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	text-align: center;
+		background: #01A2C3;
+		color: #fff;
+		border-bottom: none;
+		/*cursor: pointer;*/
+		margin-bottom: 0;
+		text-transform: uppercase; 
+}
+#studentcontainer,
+#companycontainer{
+	padding: 5px;
+
+}
+#student-tab,
+#company-tab{
+		width: 29%;
+		display: inline-block;
+		padding: 12px;
+		box-sizing: border-box;
+		text-align: center;
+		color: #fff;
+		text-transform: uppercase;
+		cursor: pointer;
+}
+.active{
+	background: #2196F3;
+}
+.form-control{
+	width: 100%;
+	margin-bottom: 0px;
+	box-sizing: border-box;
+}
+.inputbox{
+	height: 10px;
+	border: none;
+	padding: 18px;
+}
+.inputbox:focus{
+	outline-color: #01A2C3;
+}
+body
+{
+	margin:0;
+	padding: 0;
+	font-family: Bell MT;
+	background-image: url('images/resource/b8.jpg');
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+	font-size: 14px;
+}
+#main {
+	background: rgba(0,0,0,0.3);
+	width: 400px;
+	position: absolute;
+	top: 400px;
+	/*bottom: 25px;*/
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.50);
+	transition: all 0.3s ease-in
+	cursor: pointer;
+	/*height: 200px;*/
+}
+#main-hover{
+	box-shadow: 8px 8px 10px 0 rgba(0,0,0,0.30);
+}

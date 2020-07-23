@@ -1,0 +1,67 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body
+{
+	
+	margin:0;
+	padding: 0;
+	font-family: Arial,Helvetica,sans-serif;
+	background-image: url('mslider2.jpg');
+	background-size: cover;
+	height: 100vh;
+	background-repeat: no-repeat;
+	
+}
+
+center
+{
+	font-family: Book Antiqua;
+	font-size:25px;
+	color:black;
+}
+
+form{
+    margin-top: 100px;
+    text-align: center;
+    color:black;
+}
+
+.button{
+    /*width:90px;
+    height:30px;*/
+    font-size: 20px;
+    display: inline-block;
+	padding: 10px  30px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 200px;
+	transition: background-color 0.2s,border 0.2s,color 0.2s;
+	border: 1px solid white;
+	background-color: transparent;
+    color: black;
+    margin-top: 60px;
+}
+
+.button:hover{
+	background-color: orange;
+}
+
+label{
+    padding: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.box{
+    height: 30px;
+    width: 250px;
+    margin-top: 50px;
+    border-radius: 200px;
+    text-decoration: none;
+    border: 1px solid white;
+}
